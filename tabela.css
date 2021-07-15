@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+  font-weight: 655;
+  color: #6603C9;
+  letter-spacing: -1.3px;
+  line-height: 1.3;
+  margin:-90px 30px 100px 49px;
+}
+h4{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  color: #A1A1A1;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin:-40px 30px 100px 49px;
+
+}
+p{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #A1A1A1;
+  letter-spacing: 0px;
+  line-height: 1.6;
+  margin: -85px 30px 100px 49px;
+}
+h3{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #434343;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  margin: -40px 30px 100px 49px;
+}
+
+.caixa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+    background-color: brown;
+}
+.caixa_esquerda{
+    width: 50%;
+    height: 100%;
+    background-color:yellow;
+    background: url("http://ydirection.com/Aria/assets/images/bg1.png")no-repeat center center;
+    background-size: cover;
+    
+
+}
+.caixa_esquerda img{
+    width: 100%;
+    height: 100%;
+}
+.caixa_direita{
+    width:50%;
+    height: 100%;
+    background-color:white;  
+}
+.icone{
+    margin: 33px 30px 100px 49px;
+}
+.appStore{
+  margin: -70px 30px 100px 49px;
+}
+.playStore{
+  margin: -155.5px 30px 100px 220px;
+}
+.assinatura{
+    font-family: Poppins;
+    color: #111111;
+    text-align: left;
+    margin: 140px 30px 100px 0;
+}
+.redeSocial{
+  font-family: Poppins;
+  font-size: 12px;
+  display:block;
+  margin-left: 60%;
+  margin-top: -18.5%;
+}
+ul {
+  display: inline-block;
+  margin: left;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+a{
+  color: #072DEF;
+  text-decoration: none;
+}
